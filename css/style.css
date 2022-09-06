@@ -1,0 +1,336 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo .logo_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo-text{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-family: Roboto;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.relative {
+    position: relative;
+}
+
+.promo h1 .before {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 292px;
+    height: 2px;
+    background: white;
+}
+
+.promo h1 .after {
+    position: absolute;
+    background-color: white;
+    width: 310px;
+    height: 2px;
+    top: 45px;
+    right: 0;
+}
+
+.promo{
+    background-image: url("../img/main_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    padding: 20px;
+}
+
+.promo h1 {
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.promo h1 span {
+    display: block;
+    font-size: 80px;
+    color: white;
+}
+
+.promo p {
+    font-size: 21px;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 30px;
+}
+
+.free {
+    color: yellow;
+}
+
+.button {
+    background-color: rgb(69, 135, 211);
+    display: block;
+    margin: 50px auto;
+    width: 315px;
+    height: 75px;
+    color: #ffffff;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    background: yellow;
+    color: #1A1A1A;
+    transform: translateY(-5px);
+}
+
+.button:active {
+    background: #4A4A4A;
+    transform: translateY(0px);
+    box-shadow: inset 3px 3px 8px;
+
+}
+
+
+.intensive {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 88px 0 75px;
+    height: 500px;
+}
+
+.intensive h2 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+.line {
+    width: 220px;
+    height: 4px;
+    left: 851px;
+    top: 129px;
+    background: #F9BF3B;
+    margin: 10px auto;
+}
+
+.text {
+    margin-top: 17px;
+    color: #4a4a4a;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+}
+
+.intensive .intensive_box {
+    margin-top: 45.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intensive .intensive_box p {
+    height: 60px;
+    width: 342px;
+}
+
+
+.about {
+    /* background: url(../img/woman_bg.png) no-repeat 115px bottom; */
+    /* background-size: 50%; */
+    height: 600px;  
+}
+.about .container {
+    position: relative;
+}
+
+.about .woman {
+    position: absolute;
+    z-index: -2;
+    bottom: 0;
+    left: -150px;
+}
+
+.about_content {
+    padding: 50px 0 50px 480px;
+}
+
+.about_header {
+    margin-bottom: 33px;
+    color: #299cbd;
+    line-height: 30px;
+    font-weight: 900;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.about_text {
+    font-weight: 0;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4a4a4a;
+    margin-bottom: 23px;
+}
+
+.about_text span {
+    font-weight: bold;
+}
+
+
+.skills {
+    background-image: url("../img/second_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+    padding: 20px;
+
+}
+
+.skills_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: #EFEFEF;
+}
+
+.line_2 {
+    width: 217px;
+    height: 4px;
+    left: 853px;
+    top: 123px;
+    background: #F9BF3B;
+    margin: 10px auto;
+}
+
+.skills .skills_icon {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills .skills_icon .skills_item {
+    width: 204px;
+    margin: 40px;
+}
+
+.skills .skills_icon .skills_item .skills_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.skills .skills_icon .skills_item .skills_dscr {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+}
+
+
+.gift {
+    background: #EFEFEF;
+    text-align: center;
+    height: 631px;
+    padding: 88px 0 88px;
+}
+
+.gift .gift_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.gift p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    top: 307px;
+    margin-top: 45px;
+}
+
+.gift .button {
+    margin-top: 50px;
+}
+
+
+.webinar {
+    text-align: center;
+    height: 512px;
+    padding: 89px 0 50px;
+}
+
+.webinar .subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-top: 36px;
+}
+
+.webinar .title {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-top: 30px;
+}
+
+.webinar p {
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
+    margin-top: 24.5px;
+}
+
+.footer{
+    height: 169px;
+    background: #1A1A1A;
+    text-align: center;
+}
+
+.footer .footer_text a {
+    color: white;
+    text-decoration: none;
+} 
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
